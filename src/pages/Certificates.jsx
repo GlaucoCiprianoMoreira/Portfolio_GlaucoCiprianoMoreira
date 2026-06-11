@@ -85,25 +85,17 @@ function CertModal({ cert, onClose }) {
 
             {/* PDF Viewer */}
             {cert.pdfPath ? (
-              <iframe
-                src={`${import.meta.env.BASE_URL}${cert.pdfPath.replace(/^\//, '')}`}
-                title={cert.name}
+              <embed
+                key={cert.id} // Força a destruição do elemento anterior ao mudar de certificado
+                src={`${window.location.origin}${import.meta.env.BASE_URL}${cert.pdfPath.replace(/^\//, '')}`}
+                type="application/pdf"
                 className="w-full rounded-lg border border-gray-200"
                 style={{ height: '420px' }}
               />
             ) : (
-              <div className="
-                flex flex-col items-center justify-center gap-3
-                bg-gray-50 border-2 border-dashed border-gray-200 rounded-xl
-                h-64 text-gray-400
-              ">
+              <div className="flex flex-col items-center justify-center bg-gray-50 border-2 border-dashed border-gray-200 rounded-xl h-64 text-gray-400">
                 <span className="text-5xl" role="img" aria-hidden="true">📄</span>
                 <p className="text-sm font-medium">PDF não disponível</p>
-                <p className="text-xs text-gray-400 text-center px-8">
-                  Adicione o arquivo em <code className="bg-gray-100 px-1 rounded">public/assets/certificates/</code>
-                  e atualize o campo <code className="bg-gray-100 px-1 rounded">pdfPath</code> em{' '}
-                  <code className="bg-gray-100 px-1 rounded">src/data/certificates.js</code>
-                </p>
               </div>
             )}
           </div>
