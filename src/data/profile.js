@@ -64,6 +64,11 @@ export const profile = {
       title: 'Game Development',
       items: ['Pygame'],
     },
+    {
+      id: 'other-tools',
+      title: 'Other Tools',
+      items: ['Git/Github', 'Jira', 'Django', 'ClickUp'],
+    },
   ],
 
   // Soft skills for the About page

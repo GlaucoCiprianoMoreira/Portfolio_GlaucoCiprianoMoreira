@@ -29,7 +29,7 @@ export default function Folder({ tabs, active, onChange, children }) {
       <div className="
         bg-folder-yellow
         border-2 border-folder-border
-        rounded-b-xl rounded-tr-xl
+        rounded-b-xl rounded-tr-xl rounded-tl-xl
         p-1.5
         shadow-folder
         relative z-[1]

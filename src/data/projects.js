@@ -42,8 +42,8 @@ const projects = [
     image: null,
     title: 'Cave Game',
     description:
-      'This 2D arcade game was developed as a project for the Computer Graphics course. All visual elements are rendered using graphics algorithms implemented from scratch, using Pygame.',
-    stack: ['Python', 'Pygame'],
+      'This 2D arcade game was developed as a project for the Computer Graphics course. All visual elements are rendered using graphics algorithms implemented from scratch, using Pygame. The project was developed following SCRUM methodologies, with task management in Jira, and the commits followed the conventional commits rule.',
+    stack: ['Python', 'Pygame', 'SCRUM', 'Jira'],
     github: 'https://github.com/GlaucoCiprianoMoreira/Trabalho_CG_2D',
     demo: 'https://www.youtube.com/watch?v=1Pw7r0RtE-Y',
   },

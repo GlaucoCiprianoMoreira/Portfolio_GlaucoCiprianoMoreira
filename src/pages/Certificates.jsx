@@ -61,7 +61,7 @@ function CertModal({ cert, onClose }) {
             <div className="flex items-center gap-3">
               {cert.pdfPath && (
                 <a
-                  href={cert.pdfPath}
+                  href={`${import.meta.env.BASE_URL}${cert.pdfPath.replace(/^\//, '')}`}
                   download
                   className="text-folder-yellow hover:text-white transition-colors"
                   aria-label="Baixar PDF"

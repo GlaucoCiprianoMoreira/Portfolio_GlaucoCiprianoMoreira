@@ -23,11 +23,11 @@ import CV from './pages/CV'
  * Component  – the page component to render
  */
 const TABS = [
-  { id: 'about',        icon: '📁', label: 'About',        shortLabel: 'About',  Component: About },
-  { id: 'projects',     icon: '📖',  label: 'Projects',     shortLabel: 'Proj',   Component: Projects },
-  { id: 'experiences',  icon: '🔎', label: 'Experiences',  shortLabel: 'Exp',    Component: Experiences },
-  { id: 'certificates', icon: '🎓', label: 'Certificates', shortLabel: 'Certs',  Component: Certificates },
-  { id: 'cv',           icon: '📄', label: 'CV',           shortLabel: 'CV',     Component: CV },
+  { id: 'about',        icon: '📁', label: 'About',        shortLabel: '',  Component: About },
+  { id: 'projects',     icon: '📖',  label: 'Projects',     shortLabel: '',   Component: Projects },
+  { id: 'experiences',  icon: '🔎', label: 'Experiences',  shortLabel: '',    Component: Experiences },
+  { id: 'certificates', icon: '🎓', label: 'Certificates', shortLabel: '',  Component: Certificates },
+  { id: 'cv',           icon: '📄', label: 'CV',           shortLabel: '',     Component: CV },
 ]
 
 export default function App() {
