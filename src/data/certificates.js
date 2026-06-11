@@ -24,7 +24,7 @@ const certificates = [
     issuer: 'Capacita Brasil/C-Jovem',
     summary:
       'Pandas, NumPy, visualização de dados e análise exploratória com Python aplicado a casos reais.',
-    pdfPath: '/Portfolio_GlaucoCiprianoMoreira/assets/certificates/C-Jovem.pdf',
+    pdfPath: '/assets/certificates/C-Jovem.pdf',
   },
   {
     id: 'english-b1',
@@ -34,7 +34,7 @@ const certificates = [
     issuer: 'IMPARH - Instituto Municipal de Desenvolvimento de Recursos Humanos',
     summary:
       'English proficiency certification at level B1+ from IMPARH, covering reading, grammar, and listening comprehension.',
-    pdfPath: '/Portfolio_GlaucoCiprianoMoreira/assets/certificates/English.pdf',
+    pdfPath: '/assets/certificates/English.pdf',
   },
   {
     id: 'intelligent-agents-hunting-the-wumpus',
@@ -43,7 +43,7 @@ const certificates = [
     name: 'Intelligent Agents: Hunting the Wumpus',
     issuer: 'Laura - SECOMP 2025',
     summary: 'A short course on reinforcement learning and intelligent agents, using the game "Hunting the Wumpus" as an example to demonstrate the agents learning process.',
-    pdfPath: '/Portfolio_GlaucoCiprianoMoreira/assets/certificates/SECOMP-Agentes-Inteligentes-Wumpus.pdf',
+    pdfPath: '/assets/certificates/SECOMP-Agentes-Inteligentes-Wumpus.pdf',
   },
   {
     id: 'time-series-forecasting-methods-and-applications',
@@ -53,7 +53,7 @@ const certificates = [
     issuer: 'Laura - XXX Semana Universitária da UECE',
     summary:
       'Lecture on time series forecasting methods, including traditional techniques and modern approaches with neural networks, presented at the XXX University Week of UECE. This course was taught by myself and three other students from the LAURA Laboratory, aiming to teach the concept and fundamentals of Time Series in the context of Artificial Intelligence.',
-    pdfPath: '/Portfolio_GlaucoCiprianoMoreira/assets/certificates/certificadoMinistranteMinicurso_08-11-2025_14_18_06.pdf',
+    pdfPath: '/assets/certificates/certificadoMinistranteMinicurso_08-11-2025_14_18_06.pdf',
   },
   {
     id: 'bracis-2025',
@@ -63,7 +63,7 @@ const certificates = [
     issuer: 'BRACIS',
     summary:
       'Certificate of participation in the Brazilian Conference on Intelligent Systems (BRACIS) 2025, a major event in the field of Artificial Intelligence in Brazil.',
-    pdfPath: '/Portfolio_GlaucoCiprianoMoreira/assets/certificates/Certificado_BRACIS_2025.pdf',
+    pdfPath: '/assets/certificates/Certificado_BRACIS_2025.pdf',
   },
 ]
 

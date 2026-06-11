@@ -86,7 +86,7 @@ function CertModal({ cert, onClose }) {
             {/* PDF Viewer */}
             {cert.pdfPath ? (
               <iframe
-                src={cert.pdfPath}
+                src={`${import.meta.env.BASE_URL}${cert.pdfPath.replace(/^\//, '')}`}
                 title={cert.name}
                 className="w-full rounded-lg border border-gray-200"
                 style={{ height: '420px' }}
