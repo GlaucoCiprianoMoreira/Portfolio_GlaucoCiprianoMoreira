@@ -2,6 +2,8 @@
 
 Visual portfolio inspired by a physical folder / Windows Explorer file browser.
 
+[![Portfolio](https://img.shields.io/badge/Visit-Portfolio-blue?style=for-the-badge&logo=githubpages)](https://glaucociprianomoreira.github.io/Portfolio_GlaucoCiprianoMoreira/)
+
 ## ✨ Tech Stack
 
 - **React 18** + **Vite**
