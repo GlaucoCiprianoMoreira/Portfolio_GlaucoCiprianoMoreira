@@ -24,7 +24,7 @@ const projects = [
       'A modern web application developed with Next.js, React, and Tailwind CSS, created to facilitate the process of scientific research, analysis, and writing. It integrates the Gemini API for advanced language processing and the Semantic Scholar API for efficient literature review, providing researchers with a streamlined workflow from data collection to manuscript preparation.',
     stack: ['Next.js', 'React', 'Tailwind CSS', 'Gemini API', 'Semantic Scholar API'],
     github: 'https://github.com/GlaucoCiprianoMoreira/Projeto-Research-Flow',
-    demo: null,
+    demo: "https://youtu.be/JcUgqJMjTRs",
   },
   {
     id: 'volume-gesture-control',
